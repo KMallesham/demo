@@ -13,4 +13,9 @@ public class Wish {
 			return "Hello mallesham";
 		
 	}
+	
+	@GetMapping("/siddu")
+		public String modify() {
+		return "hello sudharshan";
+	}
 }
