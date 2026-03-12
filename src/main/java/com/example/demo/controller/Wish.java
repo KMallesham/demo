@@ -16,6 +16,6 @@ public class Wish {
 	
 	@GetMapping("/siddu")
 		public String modify() {
-		return "hello sudharshan";
+		return "welcome to our spring boot application";
 	}
 }
